@@ -1,123 +1,70 @@
 ---
 layout: default
+title: Mahamed Abdullahi | My Portfolio
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Mahamed Abdullahi
+### Computer Science Student
 
-[Link to another page](./another-page.html).
+Welcome to my professional portfolio. This website highlights my academic background, technical skills, and software development projects as I progress through my Computer Science studies.
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## About Me
 
-# Header 1
+I am a Computer Science student with interests in **cybersecurity, networking, and software development**. I enjoy learning how computer systems work at both the software and systems level, and I am particularly interested in how secure and efficient systems are designed.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Through my coursework and personal projects, I am developing strong foundations in programming, operating systems, and computer networks. I am continuously working to improve my technical skills and build projects that demonstrate practical problem-solving and software engineering principles.
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Technical Interests
 
-### Header 3
+- Cybersecurity
+- Computer Networking
+- Software Development
+- Systems Programming
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+---
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Skills
 
-#### Header 4
+### Programming Languages
+- Java
+- C
+- HTML
+- CSS
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### Tools & Technologies
+- Git
+- GitHub
+- Linux
 
-##### Header 5
+### Computer Science Concepts
+- Data Structures
+- Object-Oriented Programming
+- Operating Systems
+- Networking Fundamentals
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+## Projects
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+Project details will be added as I continue developing software and systems projects.
 
-### There's a horizontal rule below this.
+Future projects will include work related to:
 
-* * *
+- Systems programming
+- Networking tools
+- Security-focused applications
+- Data structure implementations
 
-### Here is an unordered list:
+---
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## Contact
 
-### And an ordered list:
+**GitHub:**  
+https://github.com/YOURUSERNAME
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Email:**  
+your.email@example.com
