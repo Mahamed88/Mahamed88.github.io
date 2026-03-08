@@ -63,8 +63,11 @@ Future projects will include work related to:
 
 ## Contact
 
-**GitHub:**  
-https://github.com/YOURUSERNAME
+**GitHub Profile**  
+[github.com/Mahamed88](https://github.com/Mahamed88)
 
-**Email:**  
-your.email@example.com
+**LinkedIn Profile**  
+[linkedin.com/in/mahamed-abdullahi-6b653523a](https://www.linkedin.com/in/mahamed-abdullahi-6b653523a/)
+
+**Email**  
+Mahamed518279@gmail.com
