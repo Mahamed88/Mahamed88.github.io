@@ -49,17 +49,50 @@ Through my coursework and personal projects, I am developing strong foundations 
 ---
 
 ## Projects
+## Projects
 
-Project details will be added as I continue developing software and systems projects.
-
-Future projects will include work related to:
-
-- Systems programming
-- Networking tools
-- Security-focused applications
-- Data structure implementations
+Below are selected projects demonstrating my skills in systems programming and software development.
 
 ---
+
+### Bitwise Operations Tool (C, Linux)
+
+A command-line application written in C that performs low-level bitwise operations on 32-bit integers. This project demonstrates my understanding of systems programming, binary data manipulation, and modular software design.
+
+**Features:**
+
+* Count Leading Zeroes (CLZ)
+* Endian Byte Swapping
+* Rotate Right (bit rotation)
+* Parity Calculation (even/odd number of bits)
+
+**Technologies Used:**
+
+* C Programming
+* GCC Compiler
+* Linux
+* Makefile
+
+**Key Concepts:**
+
+* Bitwise operators (`&`, `|`, `^`, `<<`, `>>`)
+* Endianness and memory representation
+* Multi-file program structure
+* Input validation and error handling
+
+**What I Learned:**
+
+* How data is represented and manipulated at the bit level
+* Writing efficient bitwise algorithms
+* Organizing large C programs across multiple files
+* Using Makefiles for compiling projects
+
+**GitHub Repository:**
+[View Project Code](https://github.com/Mahamed88/bitwise-operations-tool)
+
+---
+
+
 
 ## Contact
 
