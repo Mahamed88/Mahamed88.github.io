@@ -88,7 +88,7 @@ A command-line application written in C that performs low-level bitwise operatio
 * Using Makefiles for compiling projects
 
 **GitHub Repository:**
-[View Project Code](https://github.com/Mahamed88/bitwise-operations-tool)
+[View Project Code](https://github.com/Mahamed88/c-bitwise-tool.git)
 
 ---
 
