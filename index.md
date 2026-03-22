@@ -50,6 +50,21 @@ Through my coursework and personal projects, I am developing strong foundations 
 
 ---
 
+## Certifications
+ISC2 Certified in Cybersecurity (CC)
+
+Entry-level cybersecurity certification from ISC2 that demonstrates foundational knowledge in security principles, network security, access control, and risk management.
+
+Skills Covered:
+
+Security Principles and Concepts
+Network Security Fundamentals
+Access Control Concepts
+Security Operations
+Risk Management
+
+Issuing Organization: ISC2
+
 ## Projects
 
 Below are selected projects demonstrating my skills in systems programming and software development.
