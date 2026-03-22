@@ -24,6 +24,7 @@ Through my coursework and personal projects, I am developing strong foundations 
 - Computer Networking
 - Software Development
 - Systems Programming
+- Robotics 
 
 ---
 
@@ -33,7 +34,8 @@ Through my coursework and personal projects, I am developing strong foundations 
 - Java
 - C
 - HTML
-- CSS
+- C++
+- Assembly mips 
 
 ### Tools & Technologies
 - Git
@@ -49,7 +51,6 @@ Through my coursework and personal projects, I am developing strong foundations 
 ---
 
 ## Projects
-## Projects
 
 Below are selected projects demonstrating my skills in systems programming and software development.
 
@@ -58,6 +59,9 @@ Below are selected projects demonstrating my skills in systems programming and s
 ### Bitwise Operations Tool (C, Linux)
 
 A command-line application written in C that performs low-level bitwise operations on 32-bit integers. This project demonstrates my understanding of systems programming, binary data manipulation, and modular software design.
+
+**GitHub Repository:**
+[View Project Code](https://github.com/Mahamed88/c-bitwise-tool.git)
 
 **Features:**
 
@@ -87,8 +91,6 @@ A command-line application written in C that performs low-level bitwise operatio
 * Organizing large C programs across multiple files
 * Using Makefiles for compiling projects
 
-**GitHub Repository:**
-[View Project Code](https://github.com/Mahamed88/c-bitwise-tool.git)
 
 ---
 
