@@ -65,6 +65,8 @@ Risk Management
 
 Issuing Organization: ISC2
 
+---
+
 ## Projects
 
 Below are selected projects demonstrating my skills in systems programming and software development.
