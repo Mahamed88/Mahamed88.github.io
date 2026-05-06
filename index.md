@@ -66,8 +66,7 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 
 
 **Basic scan — filtered ports with service detection:**
-![Basic scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo1.png)
-
+![Basic scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo6.png)
 **Features:**
 * Concurrent scanning via a custom thread pool — scans 1024 ports in under 1 second
 * Service detection using the OS `/etc/services` database
