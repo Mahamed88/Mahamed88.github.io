@@ -62,12 +62,11 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 [View Project Code](https://github.com/Mahamed88/port-scanner)
 
 **Verbose scan — banner grabbing on open ports:**
+![Verbose scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo3.png)
 
-![Verbose scan](Demo-screenshots/demo3.png)
 
 **Basic scan — filtered ports with service detection:**
-
-![Basic scan](Demo-screenshots/demo1.png)
+![Basic scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo1.png)
 
 **Features:**
 * Concurrent scanning via a custom thread pool — scans 1024 ports in under 1 second
