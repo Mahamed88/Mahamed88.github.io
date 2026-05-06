@@ -67,14 +67,16 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 
 **Basic scan — filtered ports with service detection:**
 ![Basic scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo6.png)
+
 **Features:**
 * Concurrent scanning via a custom thread pool — scans 1024 ports in under 1 second
-* Service detection using the OS `/etc/services` database
-* Banner grabbing in verbose mode — identifies software and version on open ports
-* JSON output for piping into other tools or a SIEM
-* Top ports mode — scans the most commonly open ports (`--top-ports N`)
-* Save output to file with `-oN`
-
+* Service detection using the OS `/etc/services` database — no hardcoding, reads directly from the system
+* Banner grabbing in verbose mode (`-v`) — identifies software name and version on open ports
+* Nmap-inspired `--top-ports N` — scans the N most commonly open ports in the real world, same frequency ordering Nmap uses
+* JSON output (`--json`) — machine-readable output that can be piped into a SIEM, parsed by a script, or fed into other security tools
+* Save output to file (`-oN output.txt`) — same flag convention as Nmap for saving scan results
+* Three port states — OPEN, CLOSED, FILTERED — with color coded terminal output
+* Configurable thread count (`-t`) — tune concurrency for your network
 **Technologies Used:**
 * C++ (C++17)
 * POSIX Sockets
