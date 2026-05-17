@@ -1,75 +1,88 @@
 ---
 layout: default
-title: Mahamed Abdullahi Portfolio
+title: Mahamed Abdullahi
 ---
+ 
 ### Computer Science Student
+ 
 Welcome to my professional portfolio. This website highlights my academic background, technical skills, and software development projects as I progress through my Computer Science studies.
+ 
 ---
+ 
 ## About Me
+ 
 I am a Computer Science student with interests in **cybersecurity, networking, and software development**. I enjoy learning how computer systems work at both the software and systems level, and I am particularly interested in how secure and efficient systems are designed.
+ 
 Through my coursework and personal projects, I am developing strong foundations in programming, operating systems, and computer networks. I am continuously working to improve my technical skills and build projects that demonstrate practical problem-solving and software engineering principles.
+ 
 ---
+ 
 ## Technical Interests
+ 
 - Cybersecurity
 - Computer Networking
 - Software Development
 - Systems Programming
-- Robotics 
+- Robotics
 ---
+ 
 ## Skills
+ 
 ### Programming Languages
+ 
 - Java
 - C
 - HTML
 - C++
-- Assembly mips 
-
+- Assembly MIPS
 ### Tools & Technologies
+ 
 - Git
 - GitHub
 - Linux
-
 ### Computer Science Concepts
+ 
 - Data Structures
 - Object-Oriented Programming
 - Operating Systems
 - Networking Fundamentals
-
 ---
+ 
 ## Certifications
-ISC2 Certified in Cybersecurity (CC)
+ 
+**ISC2 Certified in Cybersecurity (CC)**
+ 
 Entry-level cybersecurity certification from ISC2 that demonstrates foundational knowledge in security principles, network security, access control, and risk management.
+ 
 Skills Covered:
-Security Principles and Concepts
-Network Security Fundamentals
-Access Control Concepts
-Security Operations
-Risk Management
+- Security Principles and Concepts
+- Network Security Fundamentals
+- Access Control Concepts
+- Security Operations
+- Risk Management
 Issuing Organization: ISC2
+ 
 ---
-
-
-
+ 
 ## Projects
-
+ 
 Below are selected projects demonstrating my skills in systems programming and software development.
-
+ 
 ---
-
+ 
 ### TCP Port Scanner (C++, macOS/Linux)
-
+ 
 A fast multithreaded TCP connect port scanner built from scratch in C++. Developed as a cybersecurity portfolio project to understand how network reconnaissance tools work at the socket level — and how defenders can detect and respond to them.
-
+ 
 **GitHub Repository:**
 [View Project Code](https://github.com/Mahamed88/port-scanner)
-
+ 
 **Verbose scan — banner grabbing on open ports:**
 ![Verbose scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo3.png)
-
-
+ 
 **Basic scan — filtered ports with service detection:**
 ![Basic scan](https://raw.githubusercontent.com/Mahamed88/port-scanner/main/Demo-screenshots/demo6.png)
-
+ 
 **Features:**
 * Concurrent scanning via a custom thread pool — scans 1024 ports in under 1 second
 * Service detection using the OS `/etc/services` database — no hardcoding, reads directly from the system
@@ -84,35 +97,33 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 * POSIX Sockets
 * pthreads
 * Makefile
-
 **Key Concepts:**
 * TCP three-way handshake and socket programming
 * Non-blocking I/O with `select()` and timeout handling
 * Custom thread pool implementation with mutex and condition variables
 * Network protocol parsing and service fingerprinting
-
 **What I Learned:**
 * How port scanners work at the byte level — SYN, RST, and timeout behavior
 * Why threading matters — sequential scanning at 2s timeout takes 34 minutes, threaded takes under 1 second
 * How offensive tools inform defensive thinking — built the scanner then used it to understand what detection rules would catch it
-
 ---
+ 
 ### Prac-Shell (C, Linux/macOS)
-
+ 
 A Unix-like shell written in C that supports command execution, built-in commands, pipelines, I/O redirection, signal handling, and both interactive and batch execution modes. This project demonstrates my understanding of systems programming concepts, POSIX process management, and shell architecture.
-
-**GitHub Repository:**  
+ 
+**GitHub Repository:**
 [View Project Code](https://github.com/Mahamed88/Prac-shell)
-
-**PATH management and shell environment handling:**  
+ 
+**PATH management and shell environment handling:**
 ![PATH Management Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/path-management.png)
-
-**Input and output redirection demonstration:**  
+ 
+**Input and output redirection demonstration:**
 ![Redirection Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/redirection-demo.png)
-
-**Alias support and command history tracking:**  
+ 
+**Alias support and command history tracking:**
 ![Alias and History Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/history-alias-demo.png)
-
+ 
 **Features:**
 * Interactive shell mode
 * Batch file execution mode
@@ -124,14 +135,12 @@ A Unix-like shell written in C that supports command execution, built-in command
 * Signal handling for `Ctrl-C` and `Ctrl-Z`
 * Command history tracking
 * Alias creation and execution
-
 **Technologies Used:**
 * C Programming
 * POSIX System Calls
 * Linux/macOS Terminal Environment
 * GCC Compiler
 * Makefile
-
 **Key Concepts:**
 * Process creation using `fork()`
 * Program execution using `execvp()`
@@ -140,52 +149,50 @@ A Unix-like shell written in C that supports command execution, built-in command
 * Signal handling with `signal()`
 * Shell parsing and command execution
 * UNIX process synchronization with `waitpid()`
-
 **What I Learned:**
 * How Unix shells execute and manage processes internally
 * Implementing pipelines and I/O redirection at the file descriptor level
 * Managing PATH variables and built-in shell commands
 * Designing modular systems-level software across multiple C source files
 * Defensive programming and robust shell error handling
---- 
+---
+ 
 ### Bitwise Operations Tool (C, Linux)
-
+ 
 A command-line application written in C that performs low-level bitwise operations on 32-bit integers. This project demonstrates my understanding of systems programming, binary data manipulation, and modular software design.
-
+ 
 **GitHub Repository:**
 [View Project Code](https://github.com/Mahamed88/c-bitwise-tool.git)
-
+ 
 **Features:**
 * Count Leading Zeroes (CLZ)
 * Endian Byte Swapping
 * Rotate Right (bit rotation)
 * Parity Calculation (even/odd number of bits)
-
 **Technologies Used:**
 * C Programming
 * GCC Compiler
 * Linux
 * Makefile
-
 **Key Concepts:**
 * Bitwise operators (`&`, `|`, `^`, `<<`, `>>`)
 * Endianness and memory representation
 * Multi-file program structure
 * Input validation and error handling
-
 **What I Learned:**
 * How data is represented and manipulated at the bit level
 * Writing efficient bitwise algorithms
 * Organizing large C programs across multiple files
 * Using Makefiles for compiling projects
 ---
-
+ 
 ## Contact
-**GitHub Profile**  
+ 
+**GitHub Profile**
 [github.com/Mahamed88](https://github.com/Mahamed88)
-
-**LinkedIn Profile**  
+ 
+**LinkedIn Profile**
 [linkedin.com/in/mahamed-abdullahi-6b653523a](https://www.linkedin.com/in/mahamed-abdullahi-6b653523a/)
-
-**Email**  
+ 
+**Email**
 Mahamed518279@gmail.com
