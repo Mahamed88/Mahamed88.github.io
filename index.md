@@ -1,5 +1,4 @@
-layout: default
-title: Mahamed Abdullahi | My Portfolio
+ Mahamed Abdullahi | My Portfolio
 ---
 # Mahamed Abdullahi
 ### Computer Science Student
