@@ -95,7 +95,57 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 * How offensive tools inform defensive thinking — built the scanner then used it to understand what detection rules would catch it
 
 ---
+### Prac-Shell (C, Linux/macOS)
 
+A Unix-like shell written in C that supports command execution, built-in commands, pipelines, I/O redirection, signal handling, and both interactive and batch execution modes. This project demonstrates my understanding of systems programming concepts, POSIX process management, and shell architecture.
+
+**GitHub Repository:**  
+[View Project Code](https://github.com/Mahamed88/Prac-shell)
+
+**PATH management and shell environment handling:**  
+![PATH Management Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/path-management.png)
+
+**Input and output redirection demonstration:**  
+![Redirection Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/redirection-demo.png)
+
+**Alias support and command history tracking:**  
+![Alias and History Demo](https://raw.githubusercontent.com/Mahamed88/Prac-shell/main/prac-screenshots/history-alias-demo.png)
+
+**Features:**
+* Interactive shell mode
+* Batch file execution mode
+* Built-in commands (`cd`, `exit`, `path`, `alias`, `myhistory`)
+* Multiple commands separated with semicolons (`;`)
+* Input and output redirection (`<`, `>`)
+* Command pipelines (`|`)
+* PATH environment variable management
+* Signal handling for `Ctrl-C` and `Ctrl-Z`
+* Command history tracking
+* Alias creation and execution
+
+**Technologies Used:**
+* C Programming
+* POSIX System Calls
+* Linux/macOS Terminal Environment
+* GCC Compiler
+* Makefile
+
+**Key Concepts:**
+* Process creation using `fork()`
+* Program execution using `execvp()`
+* Inter-process communication with `pipe()`
+* File descriptor manipulation using `dup2()`
+* Signal handling with `signal()`
+* Shell parsing and command execution
+* UNIX process synchronization with `waitpid()`
+
+**What I Learned:**
+* How Unix shells execute and manage processes internally
+* Implementing pipelines and I/O redirection at the file descriptor level
+* Managing PATH variables and built-in shell commands
+* Designing modular systems-level software across multiple C source files
+* Defensive programming and robust shell error handling
+--- 
 ### Bitwise Operations Tool (C, Linux)
 
 A command-line application written in C that performs low-level bitwise operations on 32-bit integers. This project demonstrates my understanding of systems programming, binary data manipulation, and modular software design.
