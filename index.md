@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mahamed Abdullahi
+title: Mahamed Abdullahi Portfolio
 ---
 ### Computer Science Student
 Welcome to my professional portfolio. This website highlights my academic background, technical skills, and software development projects as I progress through my Computer Science studies.
@@ -23,10 +23,12 @@ Through my coursework and personal projects, I am developing strong foundations 
 - HTML
 - C++
 - Assembly mips 
+
 ### Tools & Technologies
 - Git
 - GitHub
 - Linux
+
 ### Computer Science Concepts
 - Data Structures
 - Object-Oriented Programming
