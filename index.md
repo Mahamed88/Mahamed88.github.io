@@ -183,7 +183,9 @@ A command-line application written in C that performs low-level bitwise operatio
 ## Contact
 **GitHub Profile**  
 [github.com/Mahamed88](https://github.com/Mahamed88)
+
 **LinkedIn Profile**  
 [linkedin.com/in/mahamed-abdullahi-6b653523a](https://www.linkedin.com/in/mahamed-abdullahi-6b653523a/)
+
 **Email**  
 Mahamed518279@gmail.com
