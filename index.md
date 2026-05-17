@@ -1,6 +1,7 @@
- Mahamed Abdullahi | My Portfolio
 ---
-# Mahamed Abdullahi
+layout: default
+title: Mahamed Abdullahi
+---
 ### Computer Science Student
 Welcome to my professional portfolio. This website highlights my academic background, technical skills, and software development projects as I progress through my Computer Science studies.
 ---
