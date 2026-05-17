@@ -1,4 +1,17 @@
 title: Mahamed Abdullahi
-description: Computer Science Portfolio
+tagline: CS Student — Cybersecurity & Systems Programming
+description: Portfolio of systems and security projects by Mahamed Abdullahi, a Computer Science student specializing in cybersecurity and low-level programming.
 theme: jekyll-theme-midnight
 show_downloads: false
+
+# Author info
+author:
+  name: Mahamed Abdullahi
+  email: Mahamed518279@gmail.com
+
+# Social links (renders in some themes)
+github_username: Mahamed88
+
+# SEO
+url: "https://mahamed88.github.io"  # replace with your actual GitHub Pages URL
+lang: en
