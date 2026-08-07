@@ -108,6 +108,52 @@ A fast multithreaded TCP connect port scanner built from scratch in C++. Develop
 * How offensive tools inform defensive thinking — built the scanner then used it to understand what detection rules would catch it
 ---
  
+### Active Directory Attack & Defense Homelab (Proxmox, Kali, Wazuh SIEM)
+ 
+A fully virtualized enterprise network built on Proxmox to practice offensive security and detection engineering end-to-end. I stood up a Windows domain, attacked it as a penetration tester, and monitored the attack in a SIEM as a SOC analyst — mapping every technique to MITRE ATT&CK.
+ 
+**GitHub Repository:**
+[View Project Code](https://github.com/Mahamed88/AD-Lab)
+ 
+**Domain enumeration — netexec pulling all domain users from the DC:**
+![Domain Enumeration](https://raw.githubusercontent.com/Mahamed88/AD-Lab/main/screenshots/domain-enumeration.png)
+ 
+**Kerberoasting — extracting a crackable TGS hash for the svc-sql service account:**
+![Kerberoasting](https://raw.githubusercontent.com/Mahamed88/AD-Lab/main/screenshots/kerberoasting.png)
+ 
+**Lateral movement — Evil-WinRM shell confirming domain admin access:**
+![Lateral Movement](https://raw.githubusercontent.com/Mahamed88/AD-Lab/main/screenshots/evil-winrm.png)
+ 
+**Wazuh detection — 1,690 alerts generated and mapped to MITRE ATT&CK:**
+![Wazuh Dashboard](https://raw.githubusercontent.com/Mahamed88/AD-Lab/main/screenshots/wazuh-dashboard.png)
+ 
+**Attack Chain:**
+Kali (attacker) → recon on WS01 (low-privilege helpdesk account) → lateral movement to WS02 (cached IT admin credentials) → full domain compromise on DC01
+ 
+**Offensive Techniques:**
+* Network and service reconnaissance with nmap
+* Domain enumeration with netexec (users, groups, SPNs)
+* Kerberoasting against a service account using impacket, cracked offline with John the Ripper
+* Lateral movement via Evil-WinRM using harvested credentials
+* Full domain credential dump with impacket-secretsdump, including the krbtgt hash
+**Detection Engineering:**
+* Deployed Wazuh 4.7 as a SIEM with agents on every domain-joined host
+* Correlated 1,690 security alerts against the live attack chain
+* Mapped detections to MITRE ATT&CK: Valid Accounts (T1078), Kerberoasting (T1558.003), Pass the Hash (T1550.002), Lateral Movement (T1021), Credential Dumping (T1003), Privilege Escalation (T1068)
+* Analyzed authentication success/failure patterns (761 successes, 31 failures) to distinguish attacker activity from normal traffic
+**Supporting IT Administration:**
+* Built the Windows Server 2022 domain (`corp.local`) attackers would target — OUs, GPOs, service accounts, SPNs
+* Intentionally misconfigured a GPO (unrestricted PowerShell execution) to model a real-world weak baseline
+**Technologies Used:**
+* Proxmox VE, Windows Server 2022, Windows 11, Kali Linux, Ubuntu Server
+* Wazuh, nmap, netexec, impacket, Evil-WinRM, John the Ripper
+**What I Learned:**
+* How a full attack chain looks from initial recon to domain compromise, not just isolated exploits
+* How Kerberoasting and credential dumping actually work against real AD infrastructure
+* How to tune a SIEM to catch specific attacker behaviors and map raw alerts to a recognized threat framework
+* Why weak GPOs and credential hygiene matter — I built the misconfiguration, then exploited it, then watched it get flagged
+---
+ 
 ### Prac-Shell (C, Linux/macOS)
  
 A Unix-like shell written in C that supports command execution, built-in commands, pipelines, I/O redirection, signal handling, and both interactive and batch execution modes. This project demonstrates my understanding of systems programming concepts, POSIX process management, and shell architecture.
